@@ -1,0 +1,33 @@
+.model-container{
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+}
+.model-list{
+    width: 1400px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#customers td, #customers th {
+    width: 800px;
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  .edit-btn{
+    margin-left: 30px;
+}
+.delet-btn{
+    margin-left: 30px;
+}
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0051ff;
+    color: white;}
